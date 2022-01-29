@@ -20,7 +20,7 @@ _global_script_class_icons={
 
 [application]
 
-config/name="Player Animation"
+config/name="Background Animation"
 run/main_scene="res://src/Level/Level.tscn"
 config/icon="res://icon.png"
 

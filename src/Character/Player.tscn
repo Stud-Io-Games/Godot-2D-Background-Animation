@@ -223,7 +223,7 @@ states/walk/position = Vector2( 572.5, 59.25 )
 transitions = [ "idle", "death", SubResource( 48 ), "idle", "walk", SubResource( 49 ), "idle", "jump", SubResource( 50 ), "idle", "hurt", SubResource( 51 ), "idle", "attack", SubResource( 52 ), "attack", "idle", SubResource( 59 ), "walk", "idle", SubResource( 60 ), "jump", "idle", SubResource( 61 ), "attack", "walk", SubResource( 63 ), "walk", "attack", SubResource( 64 ) ]
 start_node = "idle"
 end_node = "death"
-graph_offset = Vector2( -421.494, 9.92196 )
+graph_offset = Vector2( -391.644, 155.609 )
 
 [sub_resource type="AnimationNodeStateMachinePlayback" id=58]
 
@@ -251,7 +251,10 @@ position = Vector2( 0, 14 )
 shape = SubResource( 41 )
 
 [node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2( 1, -40 )
 current = true
+zoom = Vector2( 2, 2 )
+smoothing_enabled = true
 
 [node name="Animation" type="Node" parent="."]
 
