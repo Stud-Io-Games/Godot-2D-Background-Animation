@@ -9,17 +9,11 @@ You can use this Github repository for your own games.
 
 ## This template includes
 
-An animation handler using [AnimationTree](https://docs.godotengine.org/en/stable/tutorials/animation/animation_tree.html)
+An parallax background animation using handler using [Parallax Animation](https://docs.godotengine.org/en/stable/classes/class_parallaxbackground.html)
 
-The `Level scene` to test the animation player.
+The `Level scene` to test the background animation.
 
-The `Player scene` including :
-
-- Idle animation
-- Run animation
-- Jump animation
-- Attack animation
-- Death animation
+The `Player scene` including its animations 
 
 ## Setup
 
@@ -33,3 +27,14 @@ To create inputs for "move_right", "move_left", "jump", "attack" > go to `Projec
 I used [FREE STREET ANIMAL PIXEL ART ASSET PACK](https://craftpix.net/freebies/free-street-animal-pixel-art-asset-pack/) from [Craftpix](https://craftpix.net/).
 
 ![dog frames](./assets/character/player.png)
+
+I used [FREE INDUSTRIAL ZONE TILESET PIXEL ART](https://craftpix.net/freebies/free-industrial-zone-tileset-pixel-art/) from [Craftpix](https://craftpix.net/).
+
+![Background](./doc/Background.png)
+
+## Useful informations 
+
+Using the above background I had some trouble loading the background correctly once the game is started. Therefore to fix it I double the size of each background assets to let the background load while the player is moving. 
+
+![Background x2](./doc/Background_x2.png)
+
