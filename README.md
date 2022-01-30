@@ -1,10 +1,10 @@
-# Godot 2D : Player Animation
+# Godot 2D : Background Parallax Animation
 
 ![dog](icon.png)
 
 ## Purpose
 
-Example of a Player scene animated.
+Example of a Parallax background.
 You can use this Github repository for your own games.
 
 ## This template includes
@@ -13,7 +13,7 @@ An parallax background animation using handler using [Parallax Animation](https:
 
 The `Level scene` to test the background animation.
 
-The `Player scene` including its animations 
+The `Player scene` including its animations. For the player animation check this [repository](https://github.com/Stud-Io-Games/Godot-2D-Player-Animation)
 
 ## Setup
 
